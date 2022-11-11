@@ -1,0 +1,26 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "gradle",
+			"id": "${workspaceFolder}buildCommonLexer",
+			"script": "build",
+			"description": "Assembles and tests this project.",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"project": "CommonLexer",
+			"buildFile": "${workspaceFolder}/build.gradle.kts",
+			"rootProject": "CommonLexer",
+			"projectFolder": "${workspaceFolder}",
+			"workspaceFolder": "${workspaceFolder}",
+			"args": "",
+			"javaDebug": false,
+			"problemMatcher": [
+				"$gradle"
+			],
+			"label": "gradle: build"
+		}
+	]
+}
