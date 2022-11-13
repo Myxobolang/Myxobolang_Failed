@@ -7,7 +7,6 @@ int col = 0;
 %}
 
 TokenAsc [\x21-\x5a\x5e-\x7a\x7c\x7e]
-
 TokenSpecial (\\\{)|(\\\})|(\\\[)|(\\\])|(\\)
 
 U [\x80-\xbf]
@@ -29,6 +28,11 @@ token { addToken(TokenToken(col, row)); col += yyleng; }
 . { col += yyleng; }
 %%
 
+void lexStdin() {
+    yylex();
+    LIB_KUDOA_LEXER.KudoaTokenStream.setCurrent(stream);
+}
+
 void lex(const char* fileName) {
     if((int)fileName != 0) {
         FILE *file;
@@ -39,4 +43,8 @@ void lex(const char* fileName) {
 
     yylex();
     LIB_KUDOA_LEXER.KudoaTokenStream.setCurrent(stream);
+}
+
+const char* lexResult() {
+    return LIB_COMMON_LEXER.TokenStream.toKudoa(TO(TokenStream, stream));
 }

@@ -6,7 +6,9 @@
 extern "C" {
 #endif
 
+void lexStdin();
 void lex(const char* fileName);
+const char* lexResult();
 
 #ifdef __cplusplus
 }  /* extern "C" */
