@@ -10,7 +10,7 @@ abstract class Token(val col: Int, val row: Int) {
         for (s in body) {
             bodyKudoa += "[$s]"
         }
-        return  "{[token][${bodyLen + 1}]$bodyKudoa}"
+        return  "{[token][${name()}][$col][$bodyLen]$bodyKudoa}"
     }
     override fun toString(): String {
         return toKudoa()

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b10ed92a-22bb-4032-8590-ba0abb82c9c4" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../common/.idea/kotlinScripting.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flex/kotlinWrapper.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flex/kotlinWrapper.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flex/kudoa.l" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinScripting.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/kotlin/native/main/klib/KudoaLexer.klib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/kotlin/native/test/klib/KudoaLexer_test.klib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlinProjectStructureMetadata/kotlin-project-structure-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/KudoaLexer-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/KudoaLexer-metadata-1.0-SNAPSHOT-all.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/allMetadataJar/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/metadataJar/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nativeMain/kotlin/lexer/kudoa/KudoaTokenStream.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nativeMain/kotlin/lexer/kudoa/tokens/LCBRToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nativeMain/kotlin/lexer/kudoa/tokens/LSBRToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nativeMain/kotlin/lexer/kudoa/tokens/LangToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nativeMain/kotlin/lexer/kudoa/tokens/RCBRToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nativeMain/kotlin/lexer/kudoa/tokens/RSBRToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nativeMain/kotlin/lexer/kudoa/tokens/RowToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nativeMain/kotlin/lexer/kudoa/tokens/StrToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nativeMain/kotlin/lexer/kudoa/tokens/TokenToken.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nativeTest/kotlin/test.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../common/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/../../common/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../common/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/../../common/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../common/src/nativeMain/kotlin/lexer/common/Token.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../common/src/nativeMain/kotlin/lexer/common/Token.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../common/src/nativeMain/kotlin/lexer/common/TokenStream.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../common/src/nativeMain/kotlin/lexer/common/TokenStream.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../parser/kudoa/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../parser/kudoa/.idea/gradle.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:\IntelliJ IDEA Community Edition 2020.2\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2HSOBOrsi3dp340jIUoghVcfhM2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="项目" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="lexer.kudoa" />
+      <recent name="lexer.kudoa.tokens" />
+      <recent name="tokens" />
+      <recent name="" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="tokens" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="kotlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="kotlin" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="b10ed92a-22bb-4032-8590-ba0abb82c9c4" name="变更" comment="" />
+      <created>1668274881343</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668274881343</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

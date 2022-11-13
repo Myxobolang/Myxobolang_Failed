@@ -1,7 +1,7 @@
 package lexer.common
 
 abstract class TokenStream : ITokenIStream, ITokenOStream, IKudoable {
-    private val tokens: ArrayList<Token> = arrayListOf()
+    private val tokens: ArrayList<Token> = ArrayList()
     private var index = 0
     override operator fun get(index: Int): Token {
         return tokens[index + this.index]
@@ -16,11 +16,14 @@ abstract class TokenStream : ITokenIStream, ITokenOStream, IKudoable {
 
     override fun toKudoa(): String {
         var out = "{[lang]${language()}}\n"
+        if (tokens.size > 0) {
+            out += "{[row][${tokens[0].row}]}"
+        }
         var lastToken: Token? = null
         for (token in tokens) {
             out += token.toKudoa()
             if (lastToken != null && token.row > lastToken.row) {
-                out += '\n'
+                out += "\n{[row][${token.row}]}"
             }
             lastToken = token
         }

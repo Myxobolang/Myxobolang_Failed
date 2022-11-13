@@ -26,7 +26,11 @@ kotlin {
         }
     }
     sourceSets {
-        val nativeMain by getting
+        val nativeMain by getting {
+            dependencies {
+                implementation(project(":CommonLexer"))
+            }
+        }
         val nativeTest by getting
     }
 }
