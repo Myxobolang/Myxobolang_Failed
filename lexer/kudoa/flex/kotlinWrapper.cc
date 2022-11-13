@@ -1,4 +1,4 @@
-#include "kotlinWrapper.h"
+#include "kotlinWrapper.hh"
 
 extern "C" {
 

@@ -1,7 +1,7 @@
 %option noyywrap
 
 %{
-#include "../../kotlinWrapper.h"
+#include "../../kotlinWrapper.hh"
 int row = 0;
 int col = 0;
 %}
